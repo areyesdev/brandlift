@@ -1,0 +1,300 @@
+---
+import Container from "./container.astro";
+import Sectionhead from "./sectionhead.astro";
+---
+
+<Container>
+  <Sectionhead>
+    <Fragment slot="title">Método de trabajo</Fragment>
+    <Fragment slot="desc">
+      Para trabajos de desarrollo web como para marca personal.
+    </Fragment>
+  </Sectionhead>
+  <div class="grid sm:grid-cols-2 md:grid-cols-2 mt-16 gap-16">
+    <ol class="border-l-2 border-info-100">
+      <!--First item-->
+      <li>
+        <div class="flex-start md:flex">
+          <div
+            class="-ml-[20px] flex h-[40px] w-[40px] items-center justify-center rounded-full bg-red-300 text-info-700">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_115_87)">
+                <path
+                  d="M23.625 0.147321C23.9197 0.361607 24.0402 0.647321 23.9866 1.00446L20.5581 21.5759C20.5134 21.8348 20.3706 22.0357 20.1295 22.1786C20.0045 22.25 19.8661 22.2857 19.7143 22.2857C19.6161 22.2857 19.509 22.2634 19.3929 22.2188L13.3259 19.7411L10.0848 23.692C9.92413 23.8973 9.70538 24 9.42859 24C9.31252 24 9.21431 23.9821 9.13395 23.9464C8.96431 23.8839 8.82815 23.779 8.72547 23.6317C8.62279 23.4844 8.57145 23.3214 8.57145 23.1429V18.4688L20.1429 4.28571L5.82592 16.6741L0.535738 14.5045C0.20538 14.3795 0.026809 14.1339 2.32515e-05 13.7679C-0.0178339 13.4107 0.125023 13.1473 0.428595 12.9777L22.7143 0.120536C22.8482 0.0401786 22.9911 0 23.1429 0C23.3215 0 23.4822 0.0491071 23.625 0.147321Z"
+                  fill="#222222"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_115_87">
+                  <rect width="24" height="24" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div
+            class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-red-500 dark:shadow-black/10">
+            <div class="mb-4 flex justify-between">
+              <a href="#!" class="text-xl text-white font-bold">Diseño UX</a>
+            </div>
+            <p class="mb-6 text-zinc-950">
+              Comenzamos a construir la web a través de la metodología kanban.
+              Además de ello, validamos los prototipos con usuarios reales.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <!--Second item-->
+      <li>
+        <div class="flex-start md:flex">
+          <div
+            class="-ml-[20px] flex h-[40px] w-[40px] items-center justify-center rounded-full bg-red-300 text-info-700">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 3H9C8.20435 3 7.44129 3.31607 6.87868 3.87868C6.31607 4.44129 6 5.20435 6 6C6 6.79565 6.31607 7.55871 6.87868 8.12132C7.44129 8.68393 8.20435 9 9 9H12M12 3V9M12 3H15C15.7956 3 16.5587 3.31607 17.1213 3.87868C17.6839 4.44129 18 5.20435 18 6C18 6.79565 17.6839 7.55871 17.1213 8.12132C16.5587 8.68393 15.7956 9 15 9H12"
+                stroke="#222222"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"></path>
+              <path
+                d="M9 15C8.20435 15 7.44129 15.3161 6.87868 15.8787C6.31607 16.4413 6 17.2044 6 18C6 18.7956 6.31607 19.5587 6.87868 20.1213C7.44129 20.6839 8.20435 21 9 21C9.79565 21 10.5587 20.6839 11.1213 20.1213C11.6839 19.5587 12 18.7956 12 18V15M9 15H12M9 15C8.20435 15 7.44129 14.6839 6.87868 14.1213C6.31607 13.5587 6 12.7956 6 12C6 11.2044 6.31607 10.4413 6.87868 9.87868C7.44129 9.31607 8.20435 9 9 9H12V15M12 12C12 11.2044 12.3161 10.4413 12.8787 9.87868C13.4413 9.31607 14.2044 9 15 9C15.7956 9 16.5587 9.31607 17.1213 9.87868C17.6839 10.4413 18 11.2044 18 12C18 12.7956 17.6839 13.5587 17.1213 14.1213C16.5587 14.6839 15.7956 15 15 15C14.2044 15 13.4413 14.6839 12.8787 14.1213C12.3161 13.5587 12 12.7956 12 12Z"
+                stroke="#222222"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+          </div>
+          <div
+            class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-red-500 dark:shadow-black/10">
+            <div class="mb-4 flex justify-between">
+              <a href="#!" class="text-xl text-white font-bold">Diseño UI</a>
+            </div>
+            <p class="mb-6 text-zinc-950">
+              Comenzamos a construir la web a través de la metodología kanban.
+              Además de ello, validamos los prototipos con usuarios reales.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <!--Third item-->
+      <li>
+        <div class="flex-start md:flex">
+          <div
+            class="-ml-[20px] flex h-[40px] w-[40px] items-center justify-center rounded-full bg-red-300 text-info-700">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_115_103)">
+                <path
+                  d="M14.4861 3.143C14.7413 3.21479 14.9576 3.38501 15.0874 3.61623C15.2172 3.84744 15.2498 4.12073 15.1781 4.376L10.7481 20.164C10.7127 20.2905 10.6526 20.4087 10.5715 20.512C10.4903 20.6152 10.3896 20.7015 10.2751 20.7659C10.1606 20.8302 10.0346 20.8714 9.90419 20.887C9.77378 20.9027 9.64157 20.8925 9.51511 20.857C9.38865 20.8215 9.27041 20.7615 9.16714 20.6804C9.06387 20.5992 8.9776 20.4985 8.91325 20.384C8.8489 20.2695 8.80773 20.1435 8.79209 20.0131C8.77645 19.8827 8.78665 19.7505 8.82211 19.624L13.2521 3.836C13.2875 3.70942 13.3476 3.59107 13.4288 3.48771C13.51 3.38435 13.6108 3.29803 13.7254 3.23366C13.84 3.1693 13.9662 3.12816 14.0967 3.1126C14.2273 3.09705 14.3596 3.10738 14.4861 3.143ZM7.20711 7.05C7.39458 7.23753 7.4999 7.49184 7.4999 7.757C7.4999 8.02217 7.39458 8.27647 7.20711 8.464L3.67211 12L7.20711 15.535C7.30002 15.6278 7.37373 15.7381 7.42404 15.8594C7.47435 15.9807 7.50027 16.1108 7.50031 16.2421C7.50036 16.3735 7.47453 16.5036 7.42431 16.6249C7.37409 16.7463 7.30046 16.8566 7.20761 16.9495C7.11477 17.0424 7.00453 17.1161 6.8832 17.1664C6.76187 17.2167 6.63181 17.2427 6.50046 17.2427C6.36912 17.2428 6.23904 17.2169 6.11768 17.1667C5.99631 17.1165 5.88602 17.0428 5.79311 16.95L1.55011 12.707C1.36264 12.5195 1.25732 12.2652 1.25732 12C1.25732 11.7348 1.36264 11.4805 1.55011 11.293L5.79311 7.05C5.98064 6.86253 6.23495 6.75722 6.50011 6.75722C6.76527 6.75722 7.01958 6.86253 7.20711 7.05ZM16.7931 8.464C16.6976 8.37175 16.6214 8.26141 16.569 8.13941C16.5166 8.0174 16.489 7.88618 16.4879 7.7534C16.4867 7.62062 16.512 7.48894 16.5623 7.36605C16.6126 7.24315 16.6868 7.1315 16.7807 7.03761C16.8746 6.94371 16.9863 6.86946 17.1092 6.81918C17.2321 6.7689 17.3637 6.7436 17.4965 6.74475C17.6293 6.74591 17.7605 6.77349 17.8825 6.8259C18.0045 6.87831 18.1149 6.95449 18.2071 7.05L22.4501 11.293C22.6376 11.4805 22.7429 11.7348 22.7429 12C22.7429 12.2652 22.6376 12.5195 22.4501 12.707L18.2071 16.949C18.0185 17.1312 17.7659 17.232 17.5037 17.2297C17.2415 17.2274 16.9907 17.1222 16.8053 16.9368C16.6199 16.7514 16.5147 16.5006 16.5124 16.2384C16.5102 15.9762 16.611 15.7236 16.7931 15.535L20.3281 12L16.7931 8.464Z"
+                  fill="#222222"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_115_103">
+                  <rect width="24" height="24" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div
+            class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-red-500 dark:shadow-black/10">
+            <div class="mb-4 flex justify-between">
+              <a href="#!" class="text-xl text-white font-bold">Desarrollo</a>
+            </div>
+            <p class="mb-6 text-zinc-950">
+              Nuestro equipo de desarrollo se encargará de programar la web y
+              este disponible en la red. Es importante para nosotros que la web
+              sea administrable para que el cliente pueda hacer cambios.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="flex-start md:flex">
+          <div
+            class="-ml-[20px] flex h-[40px] w-[40px] items-center justify-center rounded-full bg-red-300 text-info-700">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_115_116)">
+                <path
+                  d="M23 0.999997C23 0.999997 16.472 0.541997 14 3C13.977 3.037 10 7 10 7L5 8L2 10L10 14L14 22L16 19L17 14C17 14 20.963 10.023 21 10C23.458 7.528 23 0.999997 23 0.999997ZM17 8C16.7348 8 16.4804 7.89464 16.2929 7.7071C16.1054 7.51957 16 7.26521 16 7C16 6.73478 16.1054 6.48043 16.2929 6.29289C16.4804 6.10535 16.7348 6 17 6C17.2652 6 17.5196 6.10535 17.7071 6.29289C17.8946 6.48043 18 6.73478 18 7C18 7.26521 17.8946 7.51957 17.7071 7.7071C17.5196 7.89464 17.2652 8 17 8ZM7 17C6 16 4 16 3 17C2 18 2 22 2 22C2 22 6 22 7 21C8 20 8 18 7 17Z"
+                  stroke="#222222"
+                  stroke-width="2"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_115_116">
+                  <rect width="24" height="24" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div
+            class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-red-500 dark:shadow-black/10">
+            <div class="mb-4 flex justify-between">
+              <a href="#!" class="text-xl text-white font-bold">Despliegue</a>
+            </div>
+            <p class="mb-6 text-zinc-950">
+              Una vez aprobado se procede a realizar el despliegue de la app o
+              el website.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ol>
+    <ol class="border-l-2 border-info-100">
+      <!--First item-->
+      <li>
+        <div class="flex-start md:flex">
+          <div
+            class="-ml-[20px] flex h-[40px] w-[40px] items-center justify-center rounded-full bg-red-300 text-info-700">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M5.38867 15L9.00967 7.5195V2H15.0147V7.5195L18.6227 15"
+                stroke="#222222"
+                stroke-width="2"
+                stroke-linejoin="round"></path>
+              <path
+                d="M3.89712 21.8365C3.50646 21.6474 3.20692 21.3109 3.06439 20.9009C2.92186 20.4909 2.94802 20.0412 3.13712 19.6505L5.38862 15C5.38862 15 9.00012 17.5 12.0001 15C15.0001 12.5 18.6231 15 18.6231 15L20.8681 19.6525C20.9885 19.902 21.0435 20.178 21.0281 20.4546C21.0127 20.7312 20.9273 20.9994 20.7799 21.2339C20.6326 21.4685 20.4281 21.6619 20.1856 21.7959C19.9432 21.9298 19.6706 22.0001 19.3936 22H4.61012C4.36312 22 4.11962 21.944 3.89712 21.8365Z"
+                stroke="#222222"
+                stroke-width="2"
+                stroke-linejoin="round"></path>
+            </svg>
+          </div>
+          <div
+            class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-red-500 dark:shadow-black/10">
+            <div class="mb-4 flex justify-between">
+              <a href="#!" class="text-xl text-white font-bold">Investigación</a
+              >
+            </div>
+            <p class="mb-6 text-zinc-950">
+              Analizamos la empresa, sus competidores y el mercado para poder
+              descubrir que oportunidades tenemos de diferenciarnos en el
+              mercado y como posicionarnos.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <!--Second item-->
+      <li>
+        <div class="flex-start md:flex">
+          <div
+            class="-ml-[20px] flex h-[40px] w-[40px] items-center justify-center rounded-full bg-red-300 text-info-700">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6 7.5H12V9H6V7.5ZM6 4.5H15V6H6V4.5ZM6 1.5H15V3H6V1.5Z"
+                fill="#222222"></path>
+              <path
+                d="M3.53325 21L7.7565 13.503L13.332 18.3705C13.5005 18.5205 13.7007 18.6305 13.9177 18.6924C14.1346 18.7543 14.3628 18.7664 14.5851 18.7279C14.8074 18.6894 15.0181 18.6013 15.2016 18.4701C15.3851 18.3388 15.5367 18.1679 15.645 17.97L20.8725 10.1678L19.6268 9.33225L14.3768 17.1683L14.3243 17.2455L8.748 12.378C8.57951 12.2289 8.37968 12.1195 8.16326 12.058C7.94684 11.9964 7.71936 11.9843 7.49762 12.0224C7.27588 12.0606 7.06554 12.1481 6.88214 12.2784C6.69873 12.4088 6.54695 12.5786 6.438 12.7755L3 18.8873V1.5H1.5V21C1.5004 21.3977 1.65856 21.779 1.93978 22.0602C2.221 22.3414 2.6023 22.4996 3 22.5H22.5V21H3.53325Z"
+                fill="#222222"></path>
+            </svg>
+          </div>
+          <div
+            class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-red-500 dark:shadow-black/10">
+            <div class="mb-4 flex justify-between">
+              <a href="#!" class="text-xl text-white font-bold">Estrategia</a>
+            </div>
+            <p class="mb-6 text-zinc-950">
+              Luego, te guiaré a través de un proceso estratégico para encontrar
+              la manera de hacer destacar tu marca entre su competencia y
+              dirigirse correctamente a su público.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <!--Third item-->
+      <li>
+        <div class="flex-start md:flex">
+          <div
+            class="-ml-[20px] flex h-[40px] w-[40px] items-center justify-center rounded-full bg-red-300 text-info-700">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 22C10.6333 22 9.34167 21.7373 8.125 21.212C6.90833 20.6867 5.84567 19.97 4.937 19.062C4.029 18.154 3.31233 17.0917 2.787 15.875C2.26167 14.6583 1.99933 13.3667 2 12C2 10.6167 2.271 9.31667 2.813 8.1C3.355 6.88333 4.08833 5.825 5.013 4.925C5.93767 4.025 7.01667 3.31267 8.25 2.788C9.48333 2.26333 10.8 2.00067 12.2 2C13.5333 2 14.7917 2.22933 15.975 2.688C17.1583 3.14667 18.196 3.78 19.088 4.588C19.9793 5.396 20.6877 6.35433 21.213 7.463C21.7383 8.57167 22.0007 9.76733 22 11.05C22 12.9667 21.4167 14.4377 20.25 15.463C19.0833 16.4883 17.6667 17.0007 16 17H14.15C14 17 13.8957 17.0417 13.837 17.125C13.7783 17.2083 13.7493 17.3 13.75 17.4C13.75 17.6 13.875 17.8877 14.125 18.263C14.375 18.6383 14.5 19.0673 14.5 19.55C14.5 20.3833 14.2707 21 13.812 21.4C13.3533 21.8 12.7493 22 12 22ZM6.5 13C6.93333 13 7.29167 12.8583 7.575 12.575C7.85833 12.2917 8 11.9333 8 11.5C8 11.0667 7.85833 10.7083 7.575 10.425C7.29167 10.1417 6.93333 10 6.5 10C6.06667 10 5.70833 10.1417 5.425 10.425C5.14167 10.7083 5 11.0667 5 11.5C5 11.9333 5.14167 12.2917 5.425 12.575C5.70833 12.8583 6.06667 13 6.5 13ZM9.5 9C9.93333 9 10.2917 8.85833 10.575 8.575C10.8583 8.29167 11 7.93333 11 7.5C11 7.06667 10.8583 6.70833 10.575 6.425C10.2917 6.14167 9.93333 6 9.5 6C9.06667 6 8.70833 6.14167 8.425 6.425C8.14167 6.70833 8 7.06667 8 7.5C8 7.93333 8.14167 8.29167 8.425 8.575C8.70833 8.85833 9.06667 9 9.5 9ZM14.5 9C14.9333 9 15.2917 8.85833 15.575 8.575C15.8583 8.29167 16 7.93333 16 7.5C16 7.06667 15.8583 6.70833 15.575 6.425C15.2917 6.14167 14.9333 6 14.5 6C14.0667 6 13.7083 6.14167 13.425 6.425C13.1417 6.70833 13 7.06667 13 7.5C13 7.93333 13.1417 8.29167 13.425 8.575C13.7083 8.85833 14.0667 9 14.5 9ZM17.5 13C17.9333 13 18.2917 12.8583 18.575 12.575C18.8583 12.2917 19 11.9333 19 11.5C19 11.0667 18.8583 10.7083 18.575 10.425C18.2917 10.1417 17.9333 10 17.5 10C17.0667 10 16.7083 10.1417 16.425 10.425C16.1417 10.7083 16 11.0667 16 11.5C16 11.9333 16.1417 12.2917 16.425 12.575C16.7083 12.8583 17.0667 13 17.5 13ZM12 20C12.15 20 12.271 19.9583 12.363 19.875C12.455 19.7917 12.5007 19.6833 12.5 19.55C12.5 19.3167 12.375 19.0417 12.125 18.725C11.875 18.4083 11.75 17.9333 11.75 17.3C11.75 16.6 11.9917 16.0417 12.475 15.625C12.9583 15.2083 13.55 15 14.25 15H16C17.1 15 18.0417 14.679 18.825 14.037C19.6083 13.395 20 12.3993 20 11.05C20 9.03333 19.229 7.354 17.687 6.012C16.145 4.67 14.316 3.99933 12.2 4C9.93333 4 8 4.775 6.4 6.325C4.8 7.875 4 9.76667 4 12C4 14.2167 4.779 16.1043 6.337 17.663C7.895 19.2217 9.78267 20.0007 12 20Z"
+                fill="#222222"></path>
+            </svg>
+          </div>
+          <div
+            class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-red-500 dark:shadow-black/10">
+            <div class="mb-4 flex justify-between">
+              <a href="#!" class="text-xl text-white font-bold">Diseño</a>
+            </div>
+            <p class="mb-6 text-zinc-950">
+              Con toda la investigación y estrategia previamente desarrolladas,
+              pasaremos a la etapa del diseño. Uso el One Concept Method
+              (presentación de 1 concepto) con un proceso colaborativo.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="flex-start md:flex">
+          <div
+            class="-ml-[20px] flex h-[40px] w-[40px] items-center justify-center rounded-full bg-red-300 text-info-700">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_115_170)">
+                <path
+                  d="M23 0.999997C23 0.999997 16.472 0.541997 14 3C13.977 3.037 10 7 10 7L5 8L2 10L10 14L14 22L16 19L17 14C17 14 20.963 10.023 21 10C23.458 7.528 23 0.999997 23 0.999997ZM17 8C16.7348 8 16.4804 7.89464 16.2929 7.7071C16.1054 7.51957 16 7.26521 16 7C16 6.73478 16.1054 6.48043 16.2929 6.29289C16.4804 6.10535 16.7348 6 17 6C17.2652 6 17.5196 6.10535 17.7071 6.29289C17.8946 6.48043 18 6.73478 18 7C18 7.26521 17.8946 7.51957 17.7071 7.7071C17.5196 7.89464 17.2652 8 17 8ZM7 17C6 16 4 16 3 17C2 18 2 22 2 22C2 22 6 22 7 21C8 20 8 18 7 17Z"
+                  stroke="#222222"
+                  stroke-width="2"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_115_170">
+                  <rect width="24" height="24" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div
+            class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-red-500 dark:shadow-black/10">
+            <div class="mb-4 flex justify-between">
+              <a href="#!" class="text-xl text-white font-bold"
+                >Implementación</a
+              >
+            </div>
+            <p class="mb-6 text-zinc-950">
+              Entrega de identidad de marca con todos sus entregables.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</Container>
