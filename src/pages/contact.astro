@@ -1,5 +1,4 @@
 ---
-import Contactform from "@components/contactform.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
@@ -15,30 +14,16 @@ import { Icon } from "astro-icon";
       </Fragment>
     </Sectionhead>
 
-    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
-      <div>
-        <h2 class="font-medium text-2xl text-gray-800">Contactar</h2>
-        <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Si desea agendar una asesoria por favor diligencie este formulario.
-        </p>
-        <div class="mt-5">
-          <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
-            <span>Calle 4 # 11-44</span>
-          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
-              href="mailto:hello@astroshipstarter.com">info@brandlift.com.co</a
-            >
-          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /><a
-              href="tel:+1 (987) 4587 899">+57 (313) 210 7969</a
-            >
-          </div>
-        </div>
+    <div class="container mx-auto ">
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/areyesdev/conversemos-y-hagamos-realidad-tus-proyectos?primary_color=ef4444"
+        style="min-width:320px;height:700px;">
       </div>
-      <div>
-        <Contactform />
-      </div>
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async></script>
     </div>
-  </Container>
+  </Container> 
 </Layout>
