@@ -1,6 +1,6 @@
 # Website BrandLift
 
-### 1. Install Dependencies
+### 1. Para ejecutar este proyecto debemos instalar las dependecias
 
 ```bash
 npm install
